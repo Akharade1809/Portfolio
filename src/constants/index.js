@@ -45,7 +45,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Created a basic banking prototype in Android Studio using Java, focusing on providing essential banking functionalities. The application featured a user-friendly dashboard, a fund transfer prototype, transaction history tracking, and one-click bill payments, offering a simplified and efficient banking experience.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Java", "XML", "SQLite"],
   },
 ];
 
