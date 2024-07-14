@@ -25,6 +25,7 @@ export const PROJECTS = [
     description:
       "Developed a comprehensive web application using React.js and Node.js. This application featured advanced functionalities including speech-to-text transcription, medical report summarization using the Gemini AI Studio API, and patient record storage adhering to EHR standards. Additionally, the application supported the translation of medical reports into various native languages, enhancing accessibility and usability.",
     technologies: ["React.js", "Node.js", "Gemini AI Studio API", "MongoDB"],
+    githubLink: "https://github.com/Akharade1809/Clinical-reporting",
   },
   {
     title: "Aapda Seva",
@@ -32,13 +33,15 @@ export const PROJECTS = [
     description:
       "Developed an Android application using Android Studio and Java. The app included robust features such as Rescue Agency and User portals for efficient registration and authorization, real-time chat for seamless communication, map-based location tracking of rescue agencies, offline data accessibility, and an SOS emergency call system to ensure prompt assistance during emergencies.",
     technologies: ["Android Studio", "Java", "Google Maps API"],
+    githubLink: "https://github.com/Akharade1809/Aapda_Seva",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind.css","Bootstrap"],
+    technologies: ["React", "Tailwind.css", "Bootstrap"],
+    githubLink: "https://github.com/Akharade1809/Portfolio",
   },
   {
     title: "Basic Banking Application",
@@ -46,8 +49,10 @@ export const PROJECTS = [
     description:
       "Created a basic banking prototype in Android Studio using Java, focusing on providing essential banking functionalities. The application featured a user-friendly dashboard, a fund transfer prototype, transaction history tracking, and one-click bill payments, offering a simplified and efficient banking experience.",
     technologies: ["Java", "XML", "SQLite"],
+    githubLink: "https://github.com/Akharade1809/banking_app",
   },
 ];
+
 
 export const CONTACT = {
   address: "Bangalore-India ",
