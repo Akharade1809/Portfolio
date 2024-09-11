@@ -3,18 +3,26 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am Arjun Kharade, an Android developer with over 2 years of experience. I am currently pursuing my engineering degree from Dayananda Sagar College of Engineering. My expertise lies in Android and web development, with a strong proficiency in Java. I am adept at building robust applications using Android Studio and have a proven track record of successful projects. My technical stack includes a variety of tools and technologies that ensure the delivery of high-quality software solutions.`;
+export const HERO_CONTENT = `I am Arjun Kharade, Software developer with over 3+ years of experience. I am currently pursuing my engineering degree from Dayananda Sagar College of Engineering. My expertise lies in Mobile and Web development, with a strong proficiency in Java, Dart and React. I am adept at building robust applications using Android Studio and have a proven track record of successful projects. My technical stack includes a variety of tools and technologies that ensure the delivery of high-quality software solutions.`;
 
-export const ABOUT_TEXT = `As an enthusiastic Android developer, I bring over two years of hands-on experience in building and deploying applications. Currently, I am advancing my technical education at Dayananda Sagar College of Engineering. My proficiency spans across Android development, utilizing Java and Kotlin, and extends to web development with a focus on front-end technologies. I am skilled in database management, handling Firebase, MongoDB, SQLite, MySQL, and Oracle CLI with ease. My UI/UX capabilities include working with XML, HTML, Material UI, and Jetpack Compose, complemented by design tools like Figma and Canva. Version control is an integral part of my workflow, where I extensively use Git and GitHub. My projects often reflect a blend of innovative problem-solving and practical implementation, aimed at delivering seamless user experiences. With a passion for technology and a commitment to continuous learning, I am dedicated to contributing effectively to dynamic development teams and projects.`;
+export const ABOUT_TEXT = `As an enthusiastic Software developer, I bring over two years of hands-on experience in building and deploying applications. Currently, I am advancing my technical education at Dayananda Sagar College of Engineering. My proficiency spans across Mobile Application (Cross-platform / Native) development, utilizing Java and Dart, and extends to web development with a focus on front-end technologies. I am skilled in database management, handling Firebase, MongoDB, SQLite, MySQL, and Oracle CLI with ease. My UI/UX capabilities include working with XML, HTML, Material Design, and Jetpack Compose, complemented by design tools like Figma, FigJam and Canva. Version control is an integral part of my workflow, where I extensively use Git and GitHub.\nMy projects often reflect a blend of innovative problem-solving and practical implementation, aimed at delivering seamless user experiences. With a passion for technology and a commitment to continuous learning, I am dedicated to contributing effectively to dynamic development teams and projects.`;
 
 export const EXPERIENCES = [
+  {
+    year: "July-2024 - present",
+    role: "Software Developer Intern",
+    company: "Explified",
+    description: `Developed a full-stack web application utilizing React for dynamic and responsive user interfaces, Material-UI for enhanced UI components, and Firebase for real-time database management, authentication, and cloud storage. Integrated Node.js on the backend to handle API requests and server-side logic.\n Building a cross-platform mobile application using Flutter, leveraging Firebase for backend services such as authentication, real-time databases, and cloud storage. Implementing seamless user experiences across both iOS and Android platforms. \nActively collaborating on Product Requirements Documentation (PRD) to define functional and technical specifications, ensuring alignment with stakeholder expectations and guiding development processes. Involved in drafting and maintaining key product-related documentation for project management and roadmaps.`,
+    technologies: ["Java","JavaScript", "Dart", "React", "Flutter","Android"],
+  },
   {
     year: "2023 - 2023",
     role: "Associate Software Engineer Intern",
     company: "Anthropic Technologies LLP, Belguam,India",
     description: `Actively participated in requirement gathering and design processes. I was responsible for developing and testing various software components, ensuring they met the required specifications. Additionally, I played a crucial role in validating applications to guarantee their proper functionality. This hands-on experience allowed me to enhance my technical skills and contribute effectively to the project's success.`,
     technologies: ["Project Management", "Java", "Requiremnt Enginnering", "Testing"],
-  }
+  },
+  
   
 ];
 

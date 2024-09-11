@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
+import { RiFlutterFill, RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { RiNodejsFill } from 'react-icons/ri'
 import { RiFirebaseLine } from 'react-icons/ri'
 import { RiHtml5Fill} from 'react-icons/ri'
@@ -9,9 +9,9 @@ import { RiJavaLine} from 'react-icons/ri'
 import { RiCloudLine} from 'react-icons/ri'
 import { RiGithubLine} from 'react-icons/ri'
 import { BiLogoAndroid} from 'react-icons/bi'
-import { SiMongodb} from 'react-icons/si'
+import { SiMaterialdesign, SiMongodb, SiMysql, SiOracle, SiVercel} from 'react-icons/si'
 import { SiKalilinux} from 'react-icons/si'
-import { SiSpringboot} from 'react-icons/si'
+import { SiDart } from "react-icons/si";
 import { SiPython} from 'react-icons/si'
 import { SiSqlite} from 'react-icons/si'
 
@@ -33,10 +33,13 @@ const iconVariants = (duration)=>({
 const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
-        <h2 className='my-20 text-center text-4xl'>Technologies</h2>
+        <h2 className='my-20 text-center text-4xl'>Technologies / Skills</h2>
+        <motion.div className="text-center text-2xl my-3">
+            Languages :
 
-        <div className="my-2 flex flex-wrap items-center justify-center gap-4">
-           
+        </motion.div>
+
+        <div className="my-10 flex flex-wrap items-center justify-center gap-4">
             <motion.div 
             variants={iconVariants(2.5)}
             initial="initial"
@@ -65,11 +68,23 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiPython className='text-7xl text-yellow-200'/>
             </motion.div>
+            <motion.div 
+            variants={iconVariants(4)}
+            initial="initial"
+            animate='animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiDart className='text-7xl text-cyan-400'/>
+            </motion.div>
             
             
            
         </div>
-        <div className="my-2 flex flex-wrap items-center justify-center gap-4">
+
+        <motion.div className="text-center text-2xl my-3">
+            Frameworks :
+
+        </motion.div>
+        <div className="my-10 flex flex-wrap items-center justify-center gap-4">
             <motion.div 
              variants={iconVariants(2.5)}
              initial="initial"
@@ -89,7 +104,7 @@ const Technologies = () => {
              initial="initial"
              animate='animate'
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiSpringboot className='text-7xl text-green-500'/>
+                <RiFlutterFill className='text-7xl text-blue-500'/>
             </motion.div>
             <motion.div 
              variants={iconVariants(4)}
@@ -98,13 +113,25 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsLine className='text-7xl text-cyan-400'/>
             </motion.div>
+            <motion.div 
+             variants={iconVariants(4)}
+             initial="initial"
+             animate='animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiMaterialdesign className='text-7xl text-cyan-400'/>
+            </motion.div>
             
             
             
             
             
         </div>
-        <div className="my-2 flex flex-wrap items-center justify-center gap-4">
+
+        <motion.div className="text-center text-2xl my-3">
+            Database Management Systems :
+
+        </motion.div>
+        <div className="my-10 flex flex-wrap items-center justify-center gap-4">
             <motion.div 
              variants={iconVariants(2.5)}
              initial="initial"
@@ -126,9 +153,29 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiSqlite className='text-7xl text-blue-800'/>
             </motion.div>
+            <motion.div 
+             variants={iconVariants(3.5)}
+             initial="initial"
+             animate='animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiMysql className='text-7xl text-blue-800'/>
+            </motion.div>
+            <motion.div 
+             variants={iconVariants(3.5)}
+             initial="initial"
+             animate='animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiOracle className='text-7xl text-red-500'/>
+            </motion.div>
 
         </div>
-        <div className="my-2 flex flex-wrap items-center justify-center gap-4">
+
+        <motion.div className="text-center text-2xl my-3">
+            Integration and Deployements :
+
+        </motion.div>
+
+        <div className="my-10 flex flex-wrap items-center justify-center gap-4">
             
             <motion.div 
              variants={iconVariants(2.5)}
@@ -150,6 +197,13 @@ const Technologies = () => {
              animate='animate'
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiGithubLine className='text-7xl text-white'/>
+            </motion.div>
+            <motion.div 
+             variants={iconVariants(3.5)}
+             initial="initial"
+             animate='animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiVercel className='text-7xl text-white'/>
             </motion.div>
             
         </div>

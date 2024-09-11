@@ -2,6 +2,8 @@ import React from 'react'
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/LinkedIn.jpg"
 import { motion } from "framer-motion";
+import { FiDownload } from 'react-icons/fi';
+import resumePdf from '../../src/assets/projects/ArjunKharade_1DS21CS045(DSCE).pdf'
 
 
 const container = (delay) => ({
@@ -28,7 +30,7 @@ const Hero = () => {
                     variants={container(0.5)}
                     initial="hidden"
                     animate="visible"
-                     className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>Android Developer</motion.span>
+                     className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>Software Developer</motion.span>
                     <motion.p 
                     variants={container(1)}
                     initial="hidden"
@@ -36,6 +38,18 @@ const Hero = () => {
                     className='my-2 max-w-xl py-6 font-light tracking-tighter'>
                         { HERO_CONTENT}
                     </motion.p>
+
+                    <motion.a
+                        href={resumePdf}
+                        download="Arjun_Kharade_Resume.pdf"
+                        className='flex items-center justify-center bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full mt-4'
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 1, delay: 1.5 }}
+                        >
+                        <FiDownload className='mr-2' />
+                        Download Resume
+                    </motion.a>
                 </div>
             </div>
             <div  className='w-full lg:w-1/2 lg:p-8'>
