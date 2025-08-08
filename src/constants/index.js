@@ -9,7 +9,14 @@ export const ABOUT_TEXT = `As an enthusiastic Software developer, I bring over t
 
 export const EXPERIENCES = [
   {
-    year: "July-2024 - present",
+    year: "January 2025 - Present",
+    role: "Mobile Application Developer Intern",
+    company: "Pluralsight",
+    description: `Working on Cutting Edge Technology of Kotlin Multiplatform to develop cross platform Mobile app(android, iOS, MacOS, Windows, tvOS, CarPlay).\n Inlculding Model View Intent(MVI) architecture and following the best coding practices`,
+    technologies: ["Java","JavaScript", "Dart", "React", "Flutter","Android"],
+  },
+  {
+    year: "July-2024 - January 2025",
     role: "Software Developer Intern",
     company: "Explified",
     description: `Developed a full-stack web application utilizing React for dynamic and responsive user interfaces, Material-UI for enhanced UI components, and Firebase for real-time database management, authentication, and cloud storage. Integrated Node.js on the backend to handle API requests and server-side logic.\n Building a cross-platform mobile application using Flutter, leveraging Firebase for backend services such as authentication, real-time databases, and cloud storage. Implementing seamless user experiences across both iOS and Android platforms. \nActively collaborating on Product Requirements Documentation (PRD) to define functional and technical specifications, ensuring alignment with stakeholder expectations and guiding development processes. Involved in drafting and maintaining key product-related documentation for project management and roadmaps.`,
