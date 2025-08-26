@@ -216,9 +216,6 @@ const Contact = () => {
                   <span className="text-sm font-medium text-gray-700">Contact Information</span>
                 </motion.div>
                 
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-                  Ways to Reach Me
-                </h3>
               </motion.div>
               
               <div className="space-y-6">

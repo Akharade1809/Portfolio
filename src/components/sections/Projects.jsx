@@ -6,7 +6,12 @@ import {
 } from 'react-icons/hi';
 import { 
   SiJavascript, SiReact, SiNodedotjs, SiMongodb, SiExpress,SiAndroid, SiFirebase, SiMysql, SiHtml5, SiCss3,
-  SiBootstrap, SiGithub
+  SiBootstrap, SiGithub,
+  SiFlutter,
+  SiDart,
+  SiMaterialdesign,
+  SiGetx,
+  SiOpenai
 } from 'react-icons/si';
 import { fadeInUp, fadeInLeft, staggerContainer } from '../../utils/animations';
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
@@ -20,18 +25,18 @@ const projectsData = [
     description: "Personal health management application that helps users track their health metrics, schedule appointments, medication reminders, and maintain health records digitally.",
     image: "/api/placeholder/600/400",
     technologies: [
-      { name: "React", icon: <SiReact className="text-blue-500" /> },
-      { name: "JavaScript", icon: <SiJavascript className="text-yellow-500" /> },
-      { name: "HTML5", icon: <SiHtml5 className="text-orange-500" /> },
-      { name: "CSS3", icon: <SiCss3 className="text-blue-600" /> },
-      { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600" /> }
+      { name: "Flutter", icon: <SiFlutter className="text-blue-500" /> },
+      { name: "Dart", icon: <SiDart className="text-yellow-500" /> },
+      { name: "Material Design", icon: <SiMaterialdesign className="text-orange-500" /> },
+      { name: "GetX", icon: <SiGetx className="text-blue-600" /> },
+      { name: "OpenAI", icon: <SiOpenai className="text-purple-600" /> }
     ],
     category: "Flutter App",
     gradient: "from-purple-500 to-pink-500",
     bgGradient: "from-purple-50/80 to-pink-50/80",
     features: [
       "Health Tracking",
-      "Appointment Scheduling",
+      "Caloriemeter",
       "Medication Reminders",
       "Digital Health Records",
       "Progress Analytics"
@@ -509,7 +514,7 @@ const Projects = () => {
         </div>
 
         {/* Enhanced Tech Stack Overview */}
-        <TechStackOverview isInView={isInView} />
+        {/* <TechStackOverview isInView={isInView} /> */}
 
         {/* Enhanced GitHub Profile CTA */}
         <motion.div

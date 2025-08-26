@@ -139,8 +139,8 @@ const Hero = () => {
                 className="text-lg text-gray-600 leading-relaxed max-w-xl"
                 variants={fadeInUp}
               >
-                Passionate Mobile Application Developer with 2+ years of experience creating 
-                innovative cross-platform solutions. Specialized in Android, Flutter, and modern 
+                Passionate Mobile Application Developer with 1+ years of experience creating 
+                innovative cross-platform solutions. Specialized in Android, Flutter, React-Native, and modern 
                 frameworks, bringing ideas to life through clean code and exceptional user experiences.
               </motion.p>
 
